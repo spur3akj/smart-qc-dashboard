@@ -1,0 +1,24 @@
+# Smart QC Dashboard - Python Dependencies
+# Install with: pip install -r requirements.txt
+
+# Core web framework
+streamlit>=1.28.0
+
+# Data manipulation (the backbone of all analytics)
+pandas>=2.0.0
+
+# Scientific computing (used in SPC calculations)
+numpy>=1.24.0
+
+# Interactive charts (Plotly is industry standard for dashboards)
+plotly>=5.15.0
+
+# Excel export (required for openpyxl engine in pandas)
+openpyxl>=3.1.0
+
+# Optional: QR code generation (for batch ID QR codes)
+# qrcode>=7.4.2
+# Pillow>=10.0.0
+
+# Optional: PDF generation (for PDF reports)
+# reportlab>=4.0.0
